@@ -60,3 +60,28 @@ header a:hover {
 .highlighted {
     color: lightskyblue;
 }
+
+#display {
+    min-height: 400px;
+    background:url('./img/MCRSkyline1.jpg') -420px;
+    color: white;
+    text-align: center;
+    border-bottom: lightskyblue 8px solid;
+}
+
+#display h1 {
+    margin-top: 80px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#display p {
+    font-size: 24px;
+}
+
+footer {
+    float: right;
+    padding-right: 20px;
+    font-size: 12px;
+}
+

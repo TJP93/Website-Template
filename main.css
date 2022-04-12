@@ -80,8 +80,28 @@ header a:hover {
 }
 
 footer {
-    float: right;
-    padding-right: 20px;
     font-size: 12px;
+    background-color: lightskyblue;
+    color:white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 25px;
+    
 }
 
+#imageBoxes {
+    margin-top: 25px;
+}
+
+#imageBoxes .box {
+    width: 75%;
+    padding: 12px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+
+#imageBoxes .box img {
+    width: 300px;
+}

@@ -1,1 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(234, 239, 243) ;
+}
 
+.container {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    color: white;
+    min-height: 60px;
+    padding-top: 20px;
+    border-bottom: lightskyblue 8px solid;
+}
+
+header a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+header #brand {
+    float: left;
+}
+
+header #brand h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 8px;
+}
+
+header a:hover {
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+.highlighted {
+    color: lightskyblue;
+}

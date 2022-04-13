@@ -143,4 +143,8 @@ header {
     margin-top: 40px;
 }
 
+.box p {
+    margin: 20px;
+    text-align: left;
+}
 }
